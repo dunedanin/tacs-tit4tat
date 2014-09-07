@@ -1,11 +1,16 @@
 package com.utn.examples;
 
-import java.util.*;
+import java.util.Scanner;
 
-import com.utn.tacs.builder.*;
-import com.utn.tacs.builder.api.*;
-import com.utn.tacs.model.*;
-import com.utn.tacs.oauth.*;
+import com.utn.tacs.builder.api.FacebookApi;
+
+import com.utn.tacs.builder.ServiceBuilder;
+import com.utn.tacs.model.OAuthRequest;
+import com.utn.tacs.model.Response;
+import com.utn.tacs.model.Token;
+import com.utn.tacs.model.Verb;
+import com.utn.tacs.model.Verifier;
+import com.utn.tacs.oauth.OAuthService;
 
 public class FacebookExample
 {
